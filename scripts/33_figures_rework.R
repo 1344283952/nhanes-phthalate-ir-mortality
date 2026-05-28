@@ -106,7 +106,7 @@ digraph CONSORT {
   s0  [label = "NHANES merged (cycles C-J + P_)\\nn = 95,872", fillcolor = "#FFE9C4"]
   s1  [label = "Adults aged >= 20 years\\nn = 54,022"]
   s2  [label = "Not pregnant\\nn = 52,994"]
-  s3  [label = "Phthalate biomonitoring (>=1 of 10 metabolites)\\nn = 11,893"]
+  s3  [label = "Phthalate biomonitoring\\n(>=1 of 10 metabolites)\\nn = 11,893"]
   s4  [label = "Fasting subsample (>= 8.5 h)\\nn = 4,528"]
   s5  [label = "HOMA-IR computable (LBXIN + LBXGLU)\\nn = 4,337"]
   s6  [label = "Hepatitis B/C negative\\nn = 3,331"]
