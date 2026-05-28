@@ -110,7 +110,7 @@ digraph CONSORT {
   s4  [label = "Fasting subsample (>= 8.5 h)\\nn = 4,528"]
   s5  [label = "HOMA-IR computable (LBXIN + LBXGLU)\\nn = 4,337"]
   s6  [label = "Hepatitis B/C negative\\nn = 3,331"]
-  s7  [label = "No prevalent diabetes\\n(DIQ010 / HbA1c < 6.5 / no Rx)\\nn = 2,718"]
+  s7  [label = "No prevalent diabetes\\n(DIQ010 / HbA1c below 6.5 / no Rx)\\nn = 2,718"]
   s8  [label = "No self-reported cancer\\nn = 2,466"]
   s9  [label = "Stack 1 cohort\\n(PHTHTE D-J + fasting + exclusions)\\nn = 2,466", fillcolor = "#C4F0CF"]
   s10 [label = "PRIMARY ANALYTIC COHORT\\n(Core covariates complete)\\nn = 2,239", fillcolor = "#9FE2BF", penwidth = 2.5, fontsize = 13]
