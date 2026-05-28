@@ -1,0 +1,4 @@
+"metric","estimate","ci_lo","ci_hi","bootstrap_iter","p_value","source"
+"Continuous NRI (any diff)",0.107587837827027,0.0182185968315874,0.216616065929263,1000,0.02,"manual bootstrap (1000 iter, 2-sided P)"
+"Categorical NRI (cut 0.30 / 0.60)",-0.00576331987705344,-0.0212230514640449,0.0260650708768495,1000,0.906,"manual bootstrap (1000 iter, 2-sided P)"
+"IDI",0.00173987957885607,0.000328258058773302,0.0062882106276659,1000,0.004,"manual bootstrap (1000 iter, 2-sided P)"

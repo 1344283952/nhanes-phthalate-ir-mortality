@@ -1,0 +1,3 @@
+"model","contrast","or_per_contrast","lcl","ucl"
+"Unweighted total effect (IR)","Q4-Q1 (2.144 units)",1.46423658357922,1.21504558965143,1.76453360347311
+"Weighted svyglm total effect (IR)","Q4-Q1 (2.144 units)",1.41475876692465,1.13805976553328,1.75873221179405

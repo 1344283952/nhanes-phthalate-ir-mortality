@@ -1,0 +1,7 @@
+"test","n","estimate","conf.low","conf.high","p.value","pass","note"
+"Main full sample",2202,1.1718,0.8897,1.5433,0.255,NA,"reference"
+"Lag-restricted (stable diet)",1910,1.0913,0.8271,1.44,0.532,TRUE,"ratio_lag/full=0.93"
+"NCO LBXHGB Hemoglobin (g/dL)",2193,0.0581,-0.0789,0.1951,0.401,TRUE,"NCE: PASS = p>0.05"
+"NCO LBXRBCSI Red blood cell count (10^6/uL)",2193,-0.0059,-0.0542,0.0424,0.808,TRUE,"NCE: PASS = p>0.05"
+"NCO LBXMCVSI Mean corpuscular volume (fL)",2193,-0.1768,-0.8423,0.4888,0.599,TRUE,"NCE: PASS = p>0.05"
+"NCO LBXPLTSI Platelet count (10^3/uL)",2193,20.6806,11.7574,29.6038,1.48e-05,FALSE,"NCE: PASS = p>0.05"

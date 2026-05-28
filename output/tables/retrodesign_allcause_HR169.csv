@@ -1,0 +1,5 @@
+"prior_label","prior_HR","log_HR","SE_obs","power","type_S","type_M"
+"Trasande 2022 NHANES HMW (N=5,303)",1.14,0.131,0.1231,0.187,0.007,2.35
+"Zhang 2025 NHANES 8-metab (N=8,378)",1.35,0.3001,0.1231,0.684,0,1.21
+"Meta synth midpoint",1.25,0.2231,0.1231,0.442,0,1.49
+"Conservative null-ish",1.05,0.0488,0.1231,0.068,0.135,5.99

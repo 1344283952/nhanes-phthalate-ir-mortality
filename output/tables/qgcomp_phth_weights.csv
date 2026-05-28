@@ -1,0 +1,17 @@
+"outcome","direction","metabolite","weight"
+"HOMA-IR (log)","positive","URXECP_z",0.505545525605267
+"HOMA-IR (log)","positive","URXMIB_z",0.349730395142339
+"HOMA-IR (log)","positive","URXMHH_z",0.144724079252394
+"HOMA-IR (log)","negative","URXMEP_z",0.339137813400956
+"HOMA-IR (log)","negative","URXMHP_z",0.298469671711999
+"HOMA-IR (log)","negative","URXMBP_z",0.199878169242179
+"HOMA-IR (log)","negative","URXMOH_z",0.143442171884156
+"HOMA-IR (log)","negative","URXMZP_z",0.0190721737607097
+"IR binary (logit)","positive","URXMOH_z",0.384825021198095
+"IR binary (logit)","positive","URXMIB_z",0.290810663139348
+"IR binary (logit)","positive","URXECP_z",0.255796163966017
+"IR binary (logit)","positive","URXMZP_z",0.037749987635404
+"IR binary (logit)","positive","URXMHP_z",0.0208304205692345
+"IR binary (logit)","positive","URXMBP_z",0.00998774349190165
+"IR binary (logit)","negative","URXMHH_z",0.673550799454502
+"IR binary (logit)","negative","URXMEP_z",0.326449200545498

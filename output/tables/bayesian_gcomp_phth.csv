@@ -1,0 +1,9 @@
+"estimand","value","ci_lo","ci_hi"
+"E[Y|do(Q1)]",0.45,0.414,0.486
+"E[Y|do(Q4)]",0.486,0.451,0.522
+"ATE (RD)",0.0362,-0.0145,0.0886
+"RR",1.08,0.97,1.209
+"P(ATE>0)",91.6,NA,NA
+"ROPE [-0.01,0.01] in %",12.2,NA,NA
+"ROPE above %",83.8,NA,NA
+"ROPE below %",4,NA,NA

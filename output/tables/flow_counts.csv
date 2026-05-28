@@ -1,0 +1,15 @@
+"step","n"
+"原始合并 (9 cycles, C-J + P_)",95872
+"Age >= 20",54022
+"+ not pregnant",52994
+"+ Phthalate 核心 (10 化合物) 任一非缺",11893
+"+ Fasting subsample (PHAFSTHR >= 8.5 h)",4528
+"+ HOMA-IR ready (LBXIN + LBXGLU)",4337
+"+ 排除 HEPB/HEPC 阳性 (n=1006)",3331
+"+ 排除既存糖尿病 (DIQ010==1 OR HbA1c>=6.5 OR Rx, n=613)",2718
+"+ 排除 self-reported cancer (n=252)",2466
+"Stack 1 cohort (PHTHTE D-J + fasting + 排除)",2466
+"+ 核心协变量完整 (剔 227)",2239
+"Stack 3 Mortality-linked cohort",2238
+"Stack 2 Prediabetes subset (HbA1c 5.7-6.4 OR FBG 100-125)",1247
+"Stack 4 Phthalate+PFAS subset (PFAS 4+ 化合物 complete)",1082

@@ -1,0 +1,20 @@
+=== DAG: Phthalate -> IR -> Mortality ===
+
+Minimal adjustment set (Phthalate -> IR, total effect):
+  { SES, age, diet, race, sex, smoking }
+
+Minimal adjustment set (Phthalate -> Mortality, total effect):
+  { SES, age, diet, race, sex, smoking }
+
+Minimal adjustment set (Phthalate -> Mortality, direct effect, blocking BMI/HTN/IR mediator paths):
+  { BMI_waist, IR, SES, age, hypertension, race, sex, smoking }
+
+Mediators (NOT in minimal adjustment set for total effect):
+  BMI_waist, hypertension, IR (for mortality)
+
+Confounders (in minimal adjustment set):
+  age, sex, race, SES (education + PIR), smoking, diet
+
+Note: 009 manuscript reports total-effect models adjusting for the minimal
+      confounder set + adiposity-blocking direct-effect models for mortality.
+      Mediation decomposition via CMAverse 4-way is reported separately.

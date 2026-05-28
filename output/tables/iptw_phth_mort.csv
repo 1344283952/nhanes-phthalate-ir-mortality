@@ -1,0 +1,3 @@
+"outcome","treatment","events","n_treated","n_control","scale","estimate","lcl","ucl","p","effect_str"
+"All-cause mortality","Σ-DEHP Q4 vs Q1-Q3",165,184,1180,"HR",1.56614831602404,0.072727812939759,33.7260320177185,0.212639031556942,"HR=1.566 (0.073-33.726), p=0.2126"
+"Cardiometabolic mortality","Σ-DEHP Q4 vs Q1-Q3",59,184,1180,"HR",0.880494618362981,0.156759747706087,4.94559849904674,0.77393135909318,"HR=0.880 (0.157-4.946), p=0.7739"

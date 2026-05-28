@@ -1,0 +1,4 @@
+"measure","null","point","ci_lcl","ci_ucl","p_value","scale","interp"
+"RERI",0,2.5385,-0.9258,9.7694,0.152,"additive (VanderWeele-Knol 2014)","Relative excess risk due to interaction (>0 = positive additive)"
+"AP",0,0.2698,-0.1365,0.6372,0.152,"additive (VanderWeele-Knol 2014)","Proportion of OR11 attributable to interaction"
+"SI",1,1.4324,0.8622,3.2289,0.152,"additive (VanderWeele-Knol 2014)","Synergy index (>1 = positive additive)"

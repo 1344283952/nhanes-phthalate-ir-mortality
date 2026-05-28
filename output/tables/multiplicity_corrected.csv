@@ -1,0 +1,143 @@
+"exposure","outcome","model","P_raw","family","rank","n_tests_in_family","P_BH","BH_q05_sig"
+"URXMEP_z","ir_binary","Crude",0.2672,"Single-metab × IR_binary × 3 models",26,33,0.3392,FALSE
+"URXMEP_z","ir_binary","M1",0.63,"Single-metab × IR_binary × 3 models",32,33,0.6497,FALSE
+"URXMEP_z","ir_binary","M2",0.4848,"Single-metab × IR_binary × 3 models",29,33,0.5516,FALSE
+"URXMBP_z","ir_binary","Crude",0.117,"Single-metab × IR_binary × 3 models",19,33,0.2032,FALSE
+"URXMBP_z","ir_binary","M1",0.07847,"Single-metab × IR_binary × 3 models",17,33,0.1523,FALSE
+"URXMBP_z","ir_binary","M2",0.5126,"Single-metab × IR_binary × 3 models",30,33,0.5639,FALSE
+"URXMIB_z","ir_binary","Crude",5.785e-06,"Single-metab × IR_binary × 3 models",1,33,0.0001801,TRUE
+"URXMIB_z","ir_binary","M1",1.091e-05,"Single-metab × IR_binary × 3 models",2,33,0.0001801,TRUE
+"URXMIB_z","ir_binary","M2",0.004207,"Single-metab × IR_binary × 3 models",13,33,0.01068,TRUE
+"URXMZP_z","ir_binary","Crude",0.0009141,"Single-metab × IR_binary × 3 models",4,33,0.006092,TRUE
+"URXMZP_z","ir_binary","M1",0.0003474,"Single-metab × IR_binary × 3 models",3,33,0.003821,TRUE
+"URXMZP_z","ir_binary","M2",0.2664,"Single-metab × IR_binary × 3 models",25,33,0.3392,FALSE
+"URXMHP_z","ir_binary","Crude",0.2403,"Single-metab × IR_binary × 3 models",23,33,0.3392,FALSE
+"URXMHP_z","ir_binary","M1",0.3362,"Single-metab × IR_binary × 3 models",28,33,0.3962,FALSE
+"URXMHP_z","ir_binary","M2",0.6279,"Single-metab × IR_binary × 3 models",31,33,0.6497,FALSE
+"URXMHH_z","ir_binary","Crude",0.000923,"Single-metab × IR_binary × 3 models",5,33,0.006092,TRUE
+"URXMHH_z","ir_binary","M1",0.001441,"Single-metab × IR_binary × 3 models",6,33,0.007926,TRUE
+"URXMHH_z","ir_binary","M2",0.1161,"Single-metab × IR_binary × 3 models",18,33,0.2032,FALSE
+"URXMOH_z","ir_binary","Crude",0.001927,"Single-metab × IR_binary × 3 models",7,33,0.008717,TRUE
+"URXMOH_z","ir_binary","M1",0.002377,"Single-metab × IR_binary × 3 models",9,33,0.008717,TRUE
+"URXMOH_z","ir_binary","M2",0.1665,"Single-metab × IR_binary × 3 models",20,33,0.2748,FALSE
+"URXECP_z","ir_binary","Crude",0.005325,"Single-metab × IR_binary × 3 models",14,33,0.01255,TRUE
+"URXECP_z","ir_binary","M1",0.00706,"Single-metab × IR_binary × 3 models",15,33,0.01553,TRUE
+"URXECP_z","ir_binary","M2",0.2834,"Single-metab × IR_binary × 3 models",27,33,0.3463,FALSE
+"sum_dehp_mol_z","ir_binary","Crude",0.00236,"Single-metab × IR_binary × 3 models",8,33,0.008717,TRUE
+"sum_dehp_mol_z","ir_binary","M1",0.00327,"Single-metab × IR_binary × 3 models",11,33,0.009811,TRUE
+"sum_dehp_mol_z","ir_binary","M2",0.2183,"Single-metab × IR_binary × 3 models",22,33,0.3275,FALSE
+"sum_hmw_z","ir_binary","Crude",0.003024,"Single-metab × IR_binary × 3 models",10,33,0.009811,TRUE
+"sum_hmw_z","ir_binary","M1",0.00392,"Single-metab × IR_binary × 3 models",12,33,0.01068,TRUE
+"sum_hmw_z","ir_binary","M2",0.2476,"Single-metab × IR_binary × 3 models",24,33,0.3392,FALSE
+"sum_lmw_z","ir_binary","Crude",0.07563,"Single-metab × IR_binary × 3 models",16,33,0.1523,FALSE
+"sum_lmw_z","ir_binary","M1",0.2013,"Single-metab × IR_binary × 3 models",21,33,0.3163,FALSE
+"sum_lmw_z","ir_binary","M2",0.7675,"Single-metab × IR_binary × 3 models",33,33,0.7675,FALSE
+"URXMEP_z","homa_ir_log","Crude",0.2391,"Single-metab × log-HOMA × 3 models",28,33,0.273,FALSE
+"URXMEP_z","homa_ir_log","M1",0.5874,"Single-metab × log-HOMA × 3 models",31,33,0.6253,FALSE
+"URXMEP_z","homa_ir_log","M2",0.652,"Single-metab × log-HOMA × 3 models",32,33,0.6723,FALSE
+"URXMBP_z","homa_ir_log","Crude",0.05909,"Single-metab × log-HOMA × 3 models",23,33,0.08478,FALSE
+"URXMBP_z","homa_ir_log","M1",0.05118,"Single-metab × log-HOMA × 3 models",22,33,0.07677,FALSE
+"URXMBP_z","homa_ir_log","M2",0.2482,"Single-metab × log-HOMA × 3 models",30,33,0.273,FALSE
+"URXMIB_z","homa_ir_log","Crude",7.861e-08,"Single-metab × log-HOMA × 3 models",1,33,2.594e-06,TRUE
+"URXMIB_z","homa_ir_log","M1",7.403e-07,"Single-metab × log-HOMA × 3 models",2,33,1.221e-05,TRUE
+"URXMIB_z","homa_ir_log","M2",2.683e-05,"Single-metab × log-HOMA × 3 models",6,33,0.0001437,TRUE
+"URXMZP_z","homa_ir_log","Crude",6.968e-06,"Single-metab × log-HOMA × 3 models",4,33,5.749e-05,TRUE
+"URXMZP_z","homa_ir_log","M1",4.41e-06,"Single-metab × log-HOMA × 3 models",3,33,4.851e-05,TRUE
+"URXMZP_z","homa_ir_log","M2",0.08815,"Single-metab × log-HOMA × 3 models",25,33,0.1164,FALSE
+"URXMHP_z","homa_ir_log","Crude",0.09478,"Single-metab × log-HOMA × 3 models",26,33,0.1203,FALSE
+"URXMHP_z","homa_ir_log","M1",0.2401,"Single-metab × log-HOMA × 3 models",29,33,0.273,FALSE
+"URXMHP_z","homa_ir_log","M2",0.07832,"Single-metab × log-HOMA × 3 models",24,33,0.1077,FALSE
+"URXMHH_z","homa_ir_log","Crude",2.02e-05,"Single-metab × log-HOMA × 3 models",5,33,0.0001333,TRUE
+"URXMHH_z","homa_ir_log","M1",9.823e-05,"Single-metab × log-HOMA × 3 models",11,33,0.0002947,TRUE
+"URXMHH_z","homa_ir_log","M2",0.001012,"Single-metab × log-HOMA × 3 models",17,33,0.001964,TRUE
+"URXMOH_z","homa_ir_log","Crude",6.14e-05,"Single-metab × log-HOMA × 3 models",10,33,0.0002026,TRUE
+"URXMOH_z","homa_ir_log","M1",0.0002136,"Single-metab × log-HOMA × 3 models",15,33,0.0004699,TRUE
+"URXMOH_z","homa_ir_log","M2",0.002422,"Single-metab × log-HOMA × 3 models",20,33,0.003995,TRUE
+"URXECP_z","homa_ir_log","Crude",3.909e-05,"Single-metab × log-HOMA × 3 models",8,33,0.0001437,TRUE
+"URXECP_z","homa_ir_log","M1",0.0001248,"Single-metab × log-HOMA × 3 models",12,33,0.000317,TRUE
+"URXECP_z","homa_ir_log","M2",0.0008659,"Single-metab × log-HOMA × 3 models",16,33,0.001786,TRUE
+"sum_dehp_mol_z","homa_ir_log","Crude",3.254e-05,"Single-metab × log-HOMA × 3 models",7,33,0.0001437,TRUE
+"sum_dehp_mol_z","homa_ir_log","M1",0.0001249,"Single-metab × log-HOMA × 3 models",13,33,0.000317,TRUE
+"sum_dehp_mol_z","homa_ir_log","M2",0.001429,"Single-metab × log-HOMA × 3 models",18,33,0.00262,TRUE
+"sum_hmw_z","homa_ir_log","Crude",3.918e-05,"Single-metab × log-HOMA × 3 models",9,33,0.0001437,TRUE
+"sum_hmw_z","homa_ir_log","M1",0.0001508,"Single-metab × log-HOMA × 3 models",14,33,0.0003554,TRUE
+"sum_hmw_z","homa_ir_log","M2",0.001586,"Single-metab × log-HOMA × 3 models",19,33,0.002754,TRUE
+"sum_lmw_z","homa_ir_log","Crude",0.04435,"Single-metab × log-HOMA × 3 models",21,33,0.06969,FALSE
+"sum_lmw_z","homa_ir_log","M1",0.1514,"Single-metab × log-HOMA × 3 models",27,33,0.185,FALSE
+"sum_lmw_z","homa_ir_log","M2",0.9053,"Single-metab × log-HOMA × 3 models",33,33,0.9053,FALSE
+"URXMEP_z","ir_binary_asian","Crude",0.4653,"Single-metab × IR_binary_asian × 3 models",30,33,0.5118,FALSE
+"URXMEP_z","ir_binary_asian","M1",0.9873,"Single-metab × IR_binary_asian × 3 models",33,33,0.9873,FALSE
+"URXMEP_z","ir_binary_asian","M2",0.5052,"Single-metab × IR_binary_asian × 3 models",31,33,0.5377,FALSE
+"URXMBP_z","ir_binary_asian","Crude",0.02276,"Single-metab × IR_binary_asian × 3 models",22,33,0.03414,TRUE
+"URXMBP_z","ir_binary_asian","M1",0.02271,"Single-metab × IR_binary_asian × 3 models",21,33,0.03414,TRUE
+"URXMBP_z","ir_binary_asian","M2",0.1331,"Single-metab × IR_binary_asian × 3 models",27,33,0.1627,FALSE
+"URXMIB_z","ir_binary_asian","Crude",1.432e-05,"Single-metab × IR_binary_asian × 3 models",1,33,0.0004724,TRUE
+"URXMIB_z","ir_binary_asian","M1",3.744e-05,"Single-metab × IR_binary_asian × 3 models",2,33,0.0006178,TRUE
+"URXMIB_z","ir_binary_asian","M2",0.006423,"Single-metab × IR_binary_asian × 3 models",15,33,0.01413,TRUE
+"URXMZP_z","ir_binary_asian","Crude",0.0001058,"Single-metab × IR_binary_asian × 3 models",4,33,0.0008727,TRUE
+"URXMZP_z","ir_binary_asian","M1",6.968e-05,"Single-metab × IR_binary_asian × 3 models",3,33,0.0007665,TRUE
+"URXMZP_z","ir_binary_asian","M2",0.1014,"Single-metab × IR_binary_asian × 3 models",25,33,0.1298,FALSE
+"URXMHP_z","ir_binary_asian","Crude",0.07933,"Single-metab × IR_binary_asian × 3 models",23,33,0.1138,FALSE
+"URXMHP_z","ir_binary_asian","M1",0.143,"Single-metab × IR_binary_asian × 3 models",28,33,0.1685,FALSE
+"URXMHP_z","ir_binary_asian","M2",0.1023,"Single-metab × IR_binary_asian × 3 models",26,33,0.1298,FALSE
+"URXMHH_z","ir_binary_asian","Crude",0.0003524,"Single-metab × IR_binary_asian × 3 models",5,33,0.002326,TRUE
+"URXMHH_z","ir_binary_asian","M1",0.0007371,"Single-metab × IR_binary_asian × 3 models",9,33,0.002703,TRUE
+"URXMHH_z","ir_binary_asian","M2",0.007843,"Single-metab × IR_binary_asian × 3 models",16,33,0.01618,TRUE
+"URXMOH_z","ir_binary_asian","Crude",0.0006402,"Single-metab × IR_binary_asian × 3 models",8,33,0.002641,TRUE
+"URXMOH_z","ir_binary_asian","M1",0.00121,"Single-metab × IR_binary_asian × 3 models",12,33,0.003329,TRUE
+"URXMOH_z","ir_binary_asian","M2",0.01503,"Single-metab × IR_binary_asian × 3 models",20,33,0.0248,TRUE
+"URXECP_z","ir_binary_asian","Crude",0.001778,"Single-metab × IR_binary_asian × 3 models",13,33,0.004514,TRUE
+"URXECP_z","ir_binary_asian","M1",0.002877,"Single-metab × IR_binary_asian × 3 models",14,33,0.006782,TRUE
+"URXECP_z","ir_binary_asian","M2",0.01211,"Single-metab × IR_binary_asian × 3 models",19,33,0.02104,TRUE
+"sum_dehp_mol_z","ir_binary_asian","Crude",0.0004973,"Single-metab × IR_binary_asian × 3 models",6,33,0.00236,TRUE
+"sum_dehp_mol_z","ir_binary_asian","M1",0.0009093,"Single-metab × IR_binary_asian × 3 models",11,33,0.002728,TRUE
+"sum_dehp_mol_z","ir_binary_asian","M2",0.009263,"Single-metab × IR_binary_asian × 3 models",18,33,0.01698,TRUE
+"sum_hmw_z","ir_binary_asian","Crude",0.0005007,"Single-metab × IR_binary_asian × 3 models",7,33,0.00236,TRUE
+"sum_hmw_z","ir_binary_asian","M1",0.0008714,"Single-metab × IR_binary_asian × 3 models",10,33,0.002728,TRUE
+"sum_hmw_z","ir_binary_asian","M2",0.008958,"Single-metab × IR_binary_asian × 3 models",17,33,0.01698,TRUE
+"sum_lmw_z","ir_binary_asian","Crude",0.08896,"Single-metab × IR_binary_asian × 3 models",24,33,0.1223,FALSE
+"sum_lmw_z","ir_binary_asian","M1",0.2881,"Single-metab × IR_binary_asian × 3 models",29,33,0.3278,FALSE
+"sum_lmw_z","ir_binary_asian","M2",0.9529,"Single-metab × IR_binary_asian × 3 models",32,33,0.9827,FALSE
+NA,"IR_binary","20-39",0.1534,"Subgroup interactions (9 strata)",9,24,0.3348,FALSE
+NA,"IR_binary","40-59",0.1534,"Subgroup interactions (9 strata)",9,24,0.3348,FALSE
+NA,"IR_binary",">=60",0.1534,"Subgroup interactions (9 strata)",9,24,0.3348,FALSE
+NA,"IR_binary","Male",0.8838,"Subgroup interactions (9 strata)",23,24,0.8838,FALSE
+NA,"IR_binary","Female",0.8838,"Subgroup interactions (9 strata)",23,24,0.8838,FALSE
+NA,"IR_binary","Non-Hispanic White",0.0913,"Subgroup interactions (9 strata)",1,24,0.3348,FALSE
+NA,"IR_binary","Non-Hispanic Black",0.0913,"Subgroup interactions (9 strata)",1,24,0.3348,FALSE
+NA,"IR_binary","Mexican American",0.0913,"Subgroup interactions (9 strata)",1,24,0.3348,FALSE
+NA,"IR_binary","Other Hispanic",0.0913,"Subgroup interactions (9 strata)",1,24,0.3348,FALSE
+NA,"IR_binary","Other Race",0.0913,"Subgroup interactions (9 strata)",1,24,0.3348,FALSE
+NA,"IR_binary","Less than HS",0.2479,"Subgroup interactions (9 strata)",14,24,0.3718,FALSE
+NA,"IR_binary","High school",0.2479,"Subgroup interactions (9 strata)",14,24,0.3718,FALSE
+NA,"IR_binary","College or above",0.2479,"Subgroup interactions (9 strata)",14,24,0.3718,FALSE
+NA,"IR_binary","<25",0.1435,"Subgroup interactions (9 strata)",6,24,0.3348,FALSE
+NA,"IR_binary","25-30",0.1435,"Subgroup interactions (9 strata)",6,24,0.3348,FALSE
+NA,"IR_binary",">=30",0.1435,"Subgroup interactions (9 strata)",6,24,0.3348,FALSE
+NA,"IR_binary","Never",0.223,"Subgroup interactions (9 strata)",12,24,0.3718,FALSE
+NA,"IR_binary","Ever",0.223,"Subgroup interactions (9 strata)",12,24,0.3718,FALSE
+NA,"IR_binary","No",0.4036,"Subgroup interactions (9 strata)",17,24,0.5381,FALSE
+NA,"IR_binary","Yes",0.4036,"Subgroup interactions (9 strata)",17,24,0.5381,FALSE
+NA,"IR_binary","No",0.8655,"Subgroup interactions (9 strata)",21,24,0.8838,FALSE
+NA,"IR_binary","Yes",0.8655,"Subgroup interactions (9 strata)",21,24,0.8838,FALSE
+NA,"IR_binary","No",0.5869,"Subgroup interactions (9 strata)",19,24,0.7043,FALSE
+NA,"IR_binary","Yes",0.5869,"Subgroup interactions (9 strata)",19,24,0.7043,FALSE
+"Σ-DEHP-z (primary)","IR_binary","Main analysis (baseline)",0.2037,"Sensitivity analyses (S1-S8)",12,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","All_cause_mortality","S1: Exclude deaths within 2 yrs",0.5725,"Sensitivity analyses (S1-S8)",19,19,0.5725,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S2: HOMA-IR >= 2.50",0.2037,"Sensitivity analyses (S1-S8)",12,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S2: HOMA-IR >= 3.60",0.01879,"Sensitivity analyses (S1-S8)",2,19,0.1785,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S2: HOMA-IR >= 4.65",0.003947,"Sensitivity analyses (S1-S8)",1,19,0.07499,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S3: Creatinine-adjusted Sum-DEHP",0.2752,"Sensitivity analyses (S1-S8)",16,19,0.3268,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S4: MICE m=20 multiple imputation",0.1467,"Sensitivity analyses (S1-S8)",5,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S5: Exclude prior CHD/CHF/stroke",0.1491,"Sensitivity analyses (S1-S8)",6,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture full (all 8 metab)",0.1992,"Sensitivity analyses (S1-S8)",10,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MEP, 7 remain)",0.1236,"Sensitivity analyses (S1-S8)",4,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MnBP, 7 remain)",0.1658,"Sensitivity analyses (S1-S8)",7,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MiBP, 7 remain)",0.3293,"Sensitivity analyses (S1-S8)",17,19,0.368,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MBzP, 7 remain)",0.1932,"Sensitivity analyses (S1-S8)",8,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MEHP, 7 remain)",0.1963,"Sensitivity analyses (S1-S8)",9,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MEHHP, 7 remain)",0.2324,"Sensitivity analyses (S1-S8)",15,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MEOHP, 7 remain)",0.2187,"Sensitivity analyses (S1-S8)",14,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S6: Mixture LOO (drop MECPP, 7 remain)",0.203,"Sensitivity analyses (S1-S8)",11,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S7: Fasting >= 10h strict",0.1147,"Sensitivity analyses (S1-S8)",3,19,0.2944,FALSE
+"Σ-DEHP-z (primary)","IR_binary","S8: 2011-2018 cycles only",0.4827,"Sensitivity analyses (S1-S8)",18,19,0.5095,FALSE

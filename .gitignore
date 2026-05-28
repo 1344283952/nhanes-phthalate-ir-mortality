@@ -1,0 +1,16 @@
+# raw NHANES data (~700 MB, public domain — re-download via script 01)
+data/raw/
+
+# R / IDE
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+Thumbs.db
+.DS_Store
+
+# build outputs
+*.docx
+*.zip

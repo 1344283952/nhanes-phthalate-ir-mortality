@@ -1,0 +1,4 @@
+"prior_label","prior_D_log_HR","prior_HR","SE_obs","power","type_S","type_M","sign_error_rate","exaggeration_ratio","warning"
+"Zhang 2025 LancetPH (HR 1.35, N=8378)",0.3001,1.35,0.1231,0.684,0,1.21,0.0074,1.21,"OK (Type M < 1.5x)"
+"Trasande 2022 EnvironPollut (HR 1.14, N=5303)",0.131,1.14,0.1231,0.187,0.0067,2.35,0.1435,2.35,"All-cause HR 1.69 Type-M exaggeration concern (Type M ~2.4x)"
+"[metadata]",NA,NA,0.123084698257835,NA,NA,NA,NA,NA,"All-cause n_event=141; observed HR=1.690; W16 R4 SA-B4 R-Bias Ground 18 extension"

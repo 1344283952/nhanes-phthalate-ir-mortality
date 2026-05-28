@@ -1,0 +1,6 @@
+"prior_label","prior_HR","log_HR","SE_obs","power_80pct","type_S","type_M","interpretation"
+"Trasande 2022 NHANES all-cause",1.1,0.0953,0.1759,0.084,0.073,4.42,"Underpowered — Type M ~4.4x exaggeration"
+"Trasande 2022 high estimate",1.15,0.1398,0.1759,0.125,0.024,3.08,"Underpowered — Type M ~3.1x exaggeration"
+"Zhang 2024 phth CVD est",1.12,0.1133,0.1759,0.099,0.047,3.75,"Underpowered — Type M ~3.8x exaggeration"
+"Conservative null-ish",1.05,0.0488,0.1759,0.059,0.215,8.49,"Underpowered — Type M ~8.5x exaggeration"
+"[metadata]",NA,NA,0.175939370267097,NA,NA,NA,"CM mortality n_event=52; below Peduzzi EPV-10 (=68/9 = 7.6); R-Stats M5 fix"

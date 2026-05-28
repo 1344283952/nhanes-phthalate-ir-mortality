@@ -1,0 +1,9 @@
+"metric","value"
+"total_specs",144
+"valid_specs",144
+"pct_positive_direction",79.17
+"pct_negative_direction",20.83
+"pct_sig_positive",30.56
+"pct_sig_negative",0
+"median_estimate_binary",1.236
+"median_estimate_continuous",0.103

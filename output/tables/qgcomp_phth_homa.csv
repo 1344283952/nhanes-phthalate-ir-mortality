@@ -1,0 +1,2 @@
+"outcome","psi","psi_se","psi_lcl","psi_ucl","p","scale","boot_B","n_obs","effect_str","top_pos_weights","top_neg_weights"
+"HOMA-IR (log, continuous)",0.0224903018496006,0.0207343967347939,-0.0181483689917604,0.0631289726909616,0.278178699611168,"beta (log-scale)",2,2239,"psi=0.022 (-0.018 to 0.063), p=0.2782","URXECP_z=0.51; URXMIB_z=0.35; URXMHH_z=0.14","URXMEP_z=0.34; URXMHP_z=0.30; URXMBP_z=0.20"

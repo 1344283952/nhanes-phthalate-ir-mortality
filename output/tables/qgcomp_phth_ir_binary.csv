@@ -1,0 +1,2 @@
+"outcome","psi","psi_se","psi_lcl","psi_ucl","p","scale","boot_B","n_obs","psi_exp","psi_exp_lcl","psi_exp_ucl","effect_str","top_pos_weights","top_neg_weights"
+"IR binary (HOMA >= 2.5)",0.114208627536728,0.179746687451753,-0.238088406209085,0.466505661282541,0.525176338271909,"OR",2,2239,1.12098596903157,0.788133012161931,1.59441302847933,"OR=1.121 (0.788-1.594), p=0.5252","URXMOH_z=0.38; URXMIB_z=0.29; URXECP_z=0.26","URXMHH_z=0.67; URXMEP_z=0.33"
