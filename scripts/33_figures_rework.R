@@ -732,31 +732,40 @@ sub_ok <- sub_ok %>% arrange(strata_pretty, level) %>%
   mutate(row_id = row_number(),
          label_ord = factor(label, levels = unique(label)))
 
+# Fix: move OR (95% CI) text to dedicated right-side column (outside data plot area)
+# to eliminate overlap between text labels and CI brackets/whiskers reported by R-ImageForensics + user.
+# Strategy: cap x-scale at 4.5; place text at fixed x=3.8 with hjust=0 (left-align in text column)
+TEXT_X <- 3.8  # fixed right-side column position (outside max observed CI_high)
+
 p_forest <- ggplot(sub_ok, aes(x = OR, y = reorder(label_ord, -row_id))) +
   geom_vline(xintercept = 1, linetype = "dashed", color = "grey50") +
   geom_errorbar(aes(xmin = CI_low, xmax = CI_high),
                 width = 0.2, color = "#1B4965",
                 orientation = "y") +
   geom_point(size = 2.8, color = "#D7263D") +
-  geom_text(aes(label = sprintf("%.2f (%.2f-%.2f)", OR, CI_low, CI_high)),
-            hjust = -0.18, size = 2.6, color = "grey25") +
-  scale_x_log10(breaks = c(0.5, 0.75, 1, 1.25, 1.5, 2, 3),
-                 limits = c(0.45, 3.5),
-                 expand = expansion(mult = c(0.05, 0.25))) +
+  # OR + 95% CI text in dedicated right-side column (NO overlap with data)
+  geom_text(aes(x = TEXT_X,
+                label = sprintf("%.2f (%.2f, %.2f)", OR, CI_low, CI_high)),
+            hjust = 0, size = 2.6, color = "grey25",
+            family = "sans") +
+  scale_x_log10(breaks = c(0.5, 0.75, 1, 1.5, 2, 3),
+                 limits = c(0.45, 6),  # extended right limit to fit text column
+                 expand = expansion(mult = c(0.05, 0.02))) +
   facet_grid(strata_pretty ~ ., scales = "free_y", space = "free_y",
               switch = "y") +
-  labs(x = "OR per SD increase in log2(Sigma-DEHP) [95% CI, log10 scale]",
+  labs(x = "OR per SD increase in log2(Σ-DEHP) [95% CI, log10 scale]              OR (95% CI)",
        y = NULL,
-       title = "Figure 8. Subgroup OR for Binary IR (HOMA-IR >= 2.5)",
-       subtitle = "Per-SD Sigma-DEHP z-score; Model M2 (age + sex + race + edu + PIR + BMI + waist + smoke + HTN). All P-int > 0.05 (exploratory).") +
+       title = "Figure 8. Subgroup OR for Binary IR (HOMA-IR ≥ 2.5)",
+       subtitle = "Per-SD Σ-DEHP z-score; Model M2 (age + sex + race + edu + PIR + BMI + waist + smoke + HTN). All P-int > 0.05 (exploratory).") +
   theme_minimal(base_size = 9) +
   theme(plot.title = element_text(face = "bold", size = 13),
         plot.subtitle = element_text(size = 9, color = "grey30"),
         strip.text.y.left = element_text(angle = 0, face = "bold", size = 8),
         strip.placement = "outside",
-        panel.spacing.y = unit(0.15, "lines"))
+        panel.spacing.y = unit(0.15, "lines"),
+        axis.text.x = element_text(size = 8))
 
-save_dual_png_only(p_forest, "fig8_subgroup_forest", w = 11, h = 11, dpi = 300)
+save_dual_png_only(p_forest, "fig8_subgroup_forest", w = 13, h = 11, dpi = 300)
 
 # ============================================
 # Fig 10 — Bayesian posterior plot (300 DPI, fix title clipping)
