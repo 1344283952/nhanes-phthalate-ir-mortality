@@ -366,33 +366,50 @@ p_ev <- ev_df %>%
 save_dual_png_only(p_ev, "fig9_evalue", w = 11, h = 8, dpi = 300)
 
 # ============================================
-# Fig 13 — BKMR PIP placeholder (BKMR still running, will be replaced)
+# Fig 13 — BKMR posterior inclusion probabilities (real data, post-convergence)
+# Source: output/tables/bkmr_phth_pip.csv (8 metabolites -> log-HOMA-IR)
+# Threshold: PIP > 0.5 (Bobb 2015) flagged as "selected" (orange) vs gray
 # ============================================
-cat("\n[Fig 13] BKMR PIP placeholder\n")
+cat("\n[Fig 13] BKMR PIP (real, post-convergence)\n")
 
-p_bkmr_ph <- ggplot() +
-  geom_blank() +
-  annotate("rect", xmin = 0, xmax = 10, ymin = 0, ymax = 6,
-           fill = "#F4F4F4", color = "#999", linewidth = 0.5) +
-  annotate("text", x = 5, y = 3.6,
-           label = "Figure 13. BKMR Posterior Inclusion Probability",
-           fontface = "bold", size = 6) +
-  annotate("text", x = 5, y = 2.9,
-           label = "[ Awaiting BKMR convergence — placeholder ]",
-           color = "#D7263D", size = 5) +
-  annotate("text", x = 5, y = 2.0,
-           label = "BKMR chains running (~10-16 h to convergence).",
-           size = 4, color = "grey30") +
-  annotate("text", x = 5, y = 1.5,
-           label = "Expected MEHHP and MiBP to dominate PIP, consistent with WQS top weights and RCS drivers.",
-           size = 3.5, color = "grey30") +
-  annotate("text", x = 5, y = 0.9,
-           label = "Figure to be inserted upon completion of BKMR posterior diagnostics.",
-           size = 3.2, color = "grey50") +
-  xlim(0, 10) + ylim(0, 6) +
-  theme_void()
+bkmr_pip <- read.csv("output/tables/bkmr_phth_pip.csv", stringsAsFactors = FALSE)
 
-save_dual_png_only(p_bkmr_ph, "fig13_bkmr_pip", w = 10, h = 6, dpi = 300)
+# Sort descending by PIP and flag > 0.5 threshold
+bkmr_pip <- bkmr_pip %>%
+  mutate(selected = PIP > 0.5,
+         label = sprintf("%.3f", PIP)) %>%
+  arrange(desc(PIP))
+
+p_bkmr <- ggplot(bkmr_pip,
+                 aes(x = reorder(variable, PIP), y = PIP, fill = selected)) +
+  geom_col(width = 0.7, color = "#1B4965") +
+  geom_hline(yintercept = 0.5, linetype = "dashed",
+             color = "grey25", linewidth = 0.6) +
+  geom_text(aes(label = label),
+            hjust = -0.15, size = 3.4, color = "black") +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 1.05),
+                     breaks = seq(0, 1, 0.2),
+                     expand = expansion(mult = c(0, 0.02))) +
+  scale_fill_manual(values = c("TRUE" = "#E07A1F", "FALSE" = "#9A9A9A"),
+                    labels = c("TRUE" = "PIP > 0.5 (selected)",
+                               "FALSE" = "PIP <= 0.5"),
+                    name = NULL) +
+  annotate("text", x = 0.7, y = 0.52, hjust = 0,
+           label = "Bobb 2015 threshold (PIP = 0.5)",
+           size = 3, color = "grey25", fontface = "italic") +
+  labs(x = NULL, y = "Posterior Inclusion Probability (PIP)",
+       title = "Figure S9. BKMR posterior inclusion probabilities (8 phthalate metabolites → log-HOMA-IR)",
+       subtitle = "n = 2,202 fasting adults; MCMC 24,000 iter (4 chains, 50% warm-up); dashed line at 0.5") +
+  theme_minimal(base_size = 11) +
+  theme(plot.title = element_text(face = "bold", size = 11.5),
+        plot.subtitle = element_text(size = 9, color = "grey30"),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom",
+        axis.text.y = element_text(size = 10))
+
+save_dual_png_only(p_bkmr, "fig13_bkmr_pip", w = 10, h = 6, dpi = 300)
 
 # ============================================
 # Fig 2 — DAG re-layout (non-spaghetti, rank ordering)
